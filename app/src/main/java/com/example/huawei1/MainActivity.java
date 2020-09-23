@@ -29,11 +29,15 @@ public class MainActivity extends AppCompatActivity {
         Log.e("Activity","onResume");
     }
 
+<<<<<<< HEAD
     @Override
     protected void onPause() {
         super.onPause();
         Log.e("Activity","onPause");
     }
+=======
+//         System.out.print("pedram");
+>>>>>>> 53c16a8748b4cb08f1cc685c821402330f82cb51
 
     @Override
     protected void onStop() {
@@ -46,5 +50,9 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.e("Activity","onDestroy");
     }
+<<<<<<< HEAD
 
 }
+=======
+}
+>>>>>>> 53c16a8748b4cb08f1cc685c821402330f82cb51
